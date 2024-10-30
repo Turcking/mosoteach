@@ -13,7 +13,7 @@
 	}
 
 	function getVideoInfo(element){
-		let file_id = element.getAttribute("data-value"):
+		let file_id = element.getAttribute("data-value");
 		let clazz_course_id = new URL(window.location.toString()).searchParams.get("clazz_course_id");
 		return fetch("https://www.mosoteach.cn/web/index.php?c=res&m=request_url_for_json", {
 			"method": "POST",
