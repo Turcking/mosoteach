@@ -4,6 +4,7 @@
 // @description	Listen everything
 // @author	Turcking
 // @match	https://uexercise.unipus.cn/uexercise/api/v1/enter_exercise_exam*
+// @match	https://uexercise.unipus.cn/uexercise/api/v2/enter_unit_test*
 // ==/UserScript==
 
 (function() {
